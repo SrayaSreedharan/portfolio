@@ -1,0 +1,12 @@
+.siteInfo {
+  background-color: #f0f0f0;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  border-top: 1px solid #ddd;
+}
+.copyRight,
+.creator {
+  margin: 5px 0;
+}
