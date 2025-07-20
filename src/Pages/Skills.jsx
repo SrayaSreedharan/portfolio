@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import htmlIcon from '../images/html.png';
+import htmlIcon from '../images/htmlimg.png';
 import css from '../images/css.png';
 import bootstrap from '../images/bootstrap.png';
 import tailwind from '../images/tailwind.png';
