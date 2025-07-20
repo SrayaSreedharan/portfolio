@@ -1,7 +1,7 @@
 import React from 'react';
 import './Education.css';
-import git from '../Images/giticon.png'
-import linkedin from '../Images/linkedin.png'
+import git from '../images/giticon.png'
+import linkedin from '../images/linkedin.png'
 import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
