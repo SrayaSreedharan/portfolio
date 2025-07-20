@@ -1,0 +1,71 @@
+.experience {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+}
+.containers {
+  max-width: 1000px;
+  margin: 10px auto;
+}
+.sectionTitle {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 50px;
+}
+.experienceWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  position: relative;
+  padding-left: 30px;
+}
+.content {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.content:hover {
+  transform: translateY(-5px);
+}
+.jobTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #222;
+}
+.joblocation {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 5px;
+}
+.experienceMonth {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+.jobDescription {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+.jobDescription p {
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .experienceWrapper {
+    padding-left: 20px;
+  }
+  .ExperienceBullet {
+    top: 18px;
+  }
+  .content {
+    padding: 16px;
+  }
+  .sectionTitle {
+    font-size: 28px;
+  }
+}
