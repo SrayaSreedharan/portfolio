@@ -1,6 +1,6 @@
 .Skills {
   padding: 80px 20px;
-  background: linear-gradient(to right, #e3f2fd, #ffffff);
+background: linear-gradient(to right, #000000, #8B0000);
 }
 .sectionTitle {
   text-align: center;
@@ -15,7 +15,7 @@
   gap: 25px;
 }
 .SkillCard {
-  background-color: #fff;
+  background-color: black;
   border-radius: 12px;
   padding: 20px;
   width: 140px;
@@ -37,5 +37,5 @@
 .SkillName {
   font-size: 14px;
   font-weight: 600;
-  color: #333;
+  color: #8B0000;
 }

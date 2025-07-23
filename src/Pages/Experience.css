@@ -1,6 +1,6 @@
 .experience {
   padding: 60px 20px;
-  background: linear-gradient(to right, #e3f2fd, #ffffff);
+background: linear-gradient(to right, #000000, #8B0000);
 }
 .containers {
   max-width: 1000px;
@@ -21,7 +21,7 @@
   padding-left: 30px;
 }
 .content {
-  background-color: #ffffff;
+  background-color: black;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
   padding: 20px;
@@ -49,7 +49,7 @@
 }
 .jobDescription {
   font-size: 15px;
-  color: #444;
+  color: #8B0000;
   line-height: 1.6;
 }
 .jobDescription p {

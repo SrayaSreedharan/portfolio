@@ -1,6 +1,6 @@
 .Education {
   padding: 60px 20px;
-  background: linear-gradient(to right, #e3f2fd, #ffffff);
+background: linear-gradient(to right, #000000, #8B0000);
 }
 .container {
   max-width: 1200px;
@@ -17,10 +17,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
 }
 .EducationCard {
-  background-color: #fff;
+  background-color: black;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
   padding: 20px;
@@ -34,7 +34,7 @@
 .Qualification {
   font-size: 18px;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #8B0000;
   margin-bottom: 10px;
 }
 .AcademicYear {
@@ -43,7 +43,7 @@
   margin-bottom: 10px;
 }
 .ContactMe {
-  background: linear-gradient(to right, #e3f2fd, #ffffff);
+background: linear-gradient(to right, #000000, #8B0000);
   padding: 60px 20px;
   text-align: center;
 }
@@ -74,7 +74,7 @@
 .ContactInfoCard {
   display: flex;
   align-items: center;
-  background-color: #ffffff;
+  background-color: black;
   padding: 16px 20px;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
@@ -92,12 +92,12 @@
 }
 .ContactMeContent {
   font-size: 16px;
-  color: #333;
+  color:#8B0000;
   word-break: break-word;
 }
 .ContactMeContent a {
   text-decoration: none;
-  color: #007bff;
+  color:#8B0000;
 }
 .ContactMeContent a:hover {
   text-decoration: underline;

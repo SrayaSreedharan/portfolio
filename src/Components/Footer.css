@@ -1,9 +1,9 @@
 .siteInfo {
-  background-color: #f0f0f0;
+background: linear-gradient(to right, #000000, #8B0000);
   padding: 20px 10px;
   text-align: center;
   font-size: 14px;
-  color: #555;
+  color:white;
   border-top: 1px solid #ddd;
 }
 .copyRight,
