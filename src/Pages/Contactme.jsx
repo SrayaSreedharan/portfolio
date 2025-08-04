@@ -10,7 +10,7 @@ const ContactMe = () => {
   return (
     <section className="ContactMe" id="ContactMe">
       <div className="ContactTitleWrapper">
-        <div className="sectionTitle Contactmetitle" data-aos="fade-up">Contact Me</div>
+        <div className="sectionTitle Contactmetitle" data-aos="fade-up" style={{color:'white'}}>Contact Me</div>
       </div>
       <div className="container">
         <div className="ContactContentWrapper" data-aos="fade-up">

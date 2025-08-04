@@ -49,7 +49,7 @@ const Project = () => {
   return (
     <section className="Projects" id="portfolio">
       <div className="container">
-        <div className="sectionTitle Skillstitle" data-aos="fade-up">
+        <div className="sectionTitle Skillstitle" data-aos="fade-up" style={{color:'white'}}>
           My Works
         </div>
         <div className="ProjectsContainer" data-aos="fade-up">

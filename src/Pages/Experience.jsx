@@ -15,13 +15,13 @@ const Experience = () => {
   return (
     <section className="experience">
       <div className="containers">
-        <div className="sectionTitle experienceTitle" data-aos="fade-up" >Experience</div>
+        <div className="sectionTitle experienceTitle" data-aos="fade-up" style={{color:'white'}}>Experience</div>
         {experienceData.map((exp, index) => (
           <div className="experienceWrapper" data-aos="fade-up" key={index}>
             <div className="content">
-              <div className="jobTitle">{exp.title}</div>
-              <div className="joblocation">{exp.company}</div>
-              <div className="experienceMonth">{exp.duration}</div>
+              <div className="jobTitle" style={{color:'white'}}>{exp.title}</div>
+              <div className="joblocation" style={{color:'white'}}>{exp.company}</div>
+              <div className="experienceMonth" style={{color:'white'}}>{exp.duration}</div>
               {exp.description && (
                 <div className="jobDescription">
                   {exp.description.split('\n').map((line, i) => (

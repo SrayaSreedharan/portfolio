@@ -27,7 +27,7 @@ const Education = () => {
       </div>
       <section className="Education">
         <div className="container">
-          <div className="sectionTitle" data-aos="fade-up">Education</div>
+          <div className="sectionTitle" data-aos="fade-up" style={{color:'white'}}>Education</div>
           <div className="EducationInfoWrapper">
             {educationData.map((item, index) => (
               <div className="EducationCard" data-aos={item.animation} key={index}>

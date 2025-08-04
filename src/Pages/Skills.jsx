@@ -8,7 +8,7 @@ import jsIcon from '../images/js.png';
 import reactIcon from '../images/react.jpeg';
 import reduxIcon from '../images/redux.png';
 import mui from '../images/mui.png';
-import nextjsIcon from '../images/next.js.png';
+// import nextjsIcon from '../images/next.js.png';
 import gitIcon from '../images/giticon.png';
 
 
@@ -22,14 +22,14 @@ const Skills = () => {
   { name: 'React Js', icon: reactIcon },
   { name: 'Redux', icon: reduxIcon },
   { name: 'Material UI', icon: mui },
-  { name: 'Next js', icon: nextjsIcon},
+  // { name: 'Next js', icon: nextjsIcon ,bacgr},
   { name: 'Git hub', icon: gitIcon},
 ];
 
   return (
     <section className="Skills" id="skills">
       <div className="container">
-        <div className="sectionTitle Skillstitle" data-aos="fade-up">My Skills</div>
+        <div className="sectionTitle Skillstitle" data-aos="fade-up" style={{color:'white'}}>My Skills</div>
         <div className="SkillsSectionContainer" data-aos="fade-up">
           {skills.map((skill, index) => (
             <div className="SkillCard" key={index}>
