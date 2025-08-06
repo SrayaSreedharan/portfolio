@@ -15,7 +15,7 @@ const Landing = () => {
             <div className="buttonContainer">
               <div className="primaryBtnwrapper">
                 <a href="#ContactMe" className="primaryButton">Contact Me</a>
-                <a href="/srayasreedharan.pdf" download className="resumeButton">Download CV</a>
+                <a href="/srayasreedharan (3).pdf" download className="resumeButton">Download CV</a>
               </div>
             </div>
           </div>
